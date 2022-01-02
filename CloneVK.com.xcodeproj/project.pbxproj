@@ -12,6 +12,7 @@
 		0BE6755C2781AA0200ADCAE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE6755A2781AA0200ADCAE9 /* Main.storyboard */; };
 		0BE6755E2781AA0300ADCAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE6755D2781AA0300ADCAE9 /* Assets.xcassets */; };
 		0BE675612781AA0300ADCAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE6755F2781AA0300ADCAE9 /* LaunchScreen.storyboard */; };
+		0BE675702781B50600ADCAE9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE6756F2781B50600ADCAE9 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0BE6755D2781AA0300ADCAE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BE675602781AA0300ADCAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BE675622781AA0300ADCAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE6756F2781B50600ADCAE9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		0BE6756A2781AC2400ADCAE9 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				0BE6756E2781B4EA00ADCAE9 /* Main */,
 				0BE675582781AA0200ADCAE9 /* ViewController.swift */,
 			);
 			path = Scenes;
@@ -110,6 +113,14 @@
 				0BE675622781AA0300ADCAE9 /* Info.plist */,
 			);
 			path = Configs;
+			sourceTree = "<group>";
+		};
+		0BE6756E2781B4EA00ADCAE9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0BE6756F2781B50600ADCAE9 /* MainTabBarController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 			files = (
 				0BE675592781AA0200ADCAE9 /* ViewController.swift in Sources */,
 				0BE675552781AA0200ADCAE9 /* AppDelegate.swift in Sources */,
+				0BE675702781B50600ADCAE9 /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
