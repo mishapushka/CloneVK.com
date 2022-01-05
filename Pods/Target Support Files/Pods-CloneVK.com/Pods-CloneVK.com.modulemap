@@ -1,0 +1,6 @@
+module Pods_CloneVK_com {
+  umbrella header "Pods-CloneVK.com-umbrella.h"
+
+  export *
+  module * { export * }
+}
